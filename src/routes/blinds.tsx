@@ -6,6 +6,7 @@ import { languageLinks } from "@/lib/i18n";
 import dualRoller from "@/assets/example-dual-roller-blind-installation.jpg";
 import rollerOne from "@/assets/example-roller-blind-installation-01.jpg";
 import rollerTwo from "@/assets/example-roller-blind-installation-02.jpg";
+import motorisedImage from "@/assets/motorised-service.jpg";
 
 const faqs = [
   {
@@ -73,6 +74,14 @@ export const Route = createFileRoute("/blinds")({
           image: rollerTwo,
           imageAlt: "Example Services fitted blind at a residential opening",
           evidence: "real",
+        },
+        {
+          title: "Motorised blinds",
+          slug: "motorised-blinds-brisbane",
+          desc: "Explore motorised roller blind options for hard-to-reach windows, with power, controls and blind compatibility confirmed for each installation.",
+          image: motorisedImage,
+          imageAlt: "Illustrative interior showing automated window furnishing context",
+          evidence: "illustrative",
         },
       ]}
       faqs={faqs}
